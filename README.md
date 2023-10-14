@@ -11,7 +11,8 @@
   3. Создаем вирутальное окружение
       - `python3 -m venv venv`
   4. Активируем вирутальное окружение
-     - `venv\Scripts\activate.bat`
+     - `venv\Scripts\activate.bat` (Windows)
+     - `venv\bin\activate` (Linux)
   6. Далее следуют установить зависимости
       - `pip install -r requeriments.txt`
   7. И следующим шагом запустить main.py
